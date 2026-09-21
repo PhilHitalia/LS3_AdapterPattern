@@ -8,7 +8,7 @@ public class SchoolManagementSystem {
         SchoolManagementApp gradingModule = new GradingSystemAdapter(gradingSystem);
         SchoolManagementApp libraryModule = new LibrarySystemAdapter(librarySystem);
         
-        System.out.println("=====Starting Unified School Management App=====");
+        System.out.println("=====Unified School Management App=====");
         attendanceModule.integrateSystem();
         gradingModule.integrateSystem();
         libraryModule.integrateSystem();
